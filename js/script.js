@@ -16,9 +16,9 @@
 
 // 1) Follow the steps below to hide the "Select a shirt" option tag so users won't be able to select it or see it in the drop down menu
   // 1a) Target the "Select a shirt" `option` element with a querySelector, like so — ('option[value="Select a shirt"]') 
-  const selectShirt = document.querySelector('option[value="Select a shirt"]');
+document.querySelector('option[value="Select a shirt"]').hidden = true;
   // 1b) Use dot notation to set the `hidden` property to true on the "Select a shirt" `option` element 
-  selectShirt.hidden = true;
+  // selectShirt.hidden = true;
 
 
 
